@@ -1,7 +1,10 @@
 # Stack
 Платформа: NodeJS
+
 Мова: TypeScript
+
 Фреймворки та бiблiотеки: NextJs, Redux Toolkit, NestJs, Prisma
+
 База данних: PostgreSQL
 
 # Client-main (Front-end)
