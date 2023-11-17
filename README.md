@@ -3,6 +3,8 @@
 
 Мова: TypeScript
 
+Препроцесори: SCSS
+
 Фреймворки та бiблiотеки: NextJs, Redux Toolkit, NestJs, Prisma
 
 База данних: PostgreSQL
