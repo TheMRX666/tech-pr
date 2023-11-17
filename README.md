@@ -1,3 +1,9 @@
+# Stack
+Платформа: NodeJS
+Мова: TypeScript
+Фреймворки та бiблiотеки: NextJs, Redux Toolkit, NestJs, Prisma
+База данних: PostgreSQL
+
 # Client-main (Front-end)
 
 Клієнтська частина продукту відповідає за графічний інтерфейс та функціонал клієнтської частини.
