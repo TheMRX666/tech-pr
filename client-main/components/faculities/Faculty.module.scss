@@ -1,0 +1,75 @@
+
+.faculty__section{
+
+    &_student{
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        cursor: pointer;
+
+        gap: 10px;
+        border-top: 2px solid #848484;
+        padding: 20px 15px 10px 15px;
+        transition: .2s;
+    }
+    &_student:hover{
+        background-color: #272727;
+    }
+}
+
+.student_box{
+    width: 130px;
+    height: 100px;
+
+    overflow: hidden;
+    position: relative;
+    border: 2px solid #848484;
+    padding: 10px;
+    border-radius: 10px;
+}
+.student_label{
+    color: rgb(155, 155, 155);
+    font-size: 14px;
+
+    text-transform: uppercase;
+}
+.student_text{
+    position: absolute;
+    bottom: 10px;
+    color: #fff;
+    letter-spacing: .5px;
+    line-height: 20px;
+    text-decoration: underline;
+}
+.student_index{
+    font-size: 18px;
+    color: #fff;
+    padding-right: 10px;
+}
+.student_sub{
+    overflow: hidden;
+    text-align: center;
+
+    transition: height 0.3s ease-in-out;
+    height: 0;
+    gap: 10px;
+    margin-left: 35px;
+    width: 100%;
+
+    p{
+        font-size: 17px;
+        color: #b8b8b8;
+        padding-top: 7px;
+    }
+}
+.faculty__section_student:hover .student_sub{
+    height: 30px;
+}
+
+@media(max-width: 880px) {
+    .student_box{
+        height: 80px;
+        padding: 7px;
+        border-radius: 7px;
+    }
+}
